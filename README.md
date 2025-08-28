@@ -47,7 +47,7 @@ pip install -r requirements.txt
 1. **Clone the repository:**
 
 ```bash
-git clone https:////github.com/Weeqe1/Enantioseparation.git
+git clone https://github.com/Weeqe1/Enantioseparation.git
 cd Enantioseparation
 ```
 
@@ -139,6 +139,7 @@ The primary model used in this project is the **Graph Attention Network (GAT)**,
 ## License
 
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
