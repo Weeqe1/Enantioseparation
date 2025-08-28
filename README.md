@@ -73,7 +73,7 @@ Ensure that all dependencies are installed as mentioned in the Dependencies sect
 
 1. **Configure the target column**:
 
-   * In `config.py`, set the `TRANSFER_TARGET` variable to the desired chromatographic column. Available options include: `'Cyclosil_B'`, `'Cyclodex_B'`, `'HP_chiral_20¦Â'`, etc.
+   * In `config.py`, set the `TRANSFER_TARGET` variable to the desired chromatographic column. Available options include: `'Cyclosil_B'`, `'Cyclodex_B'`, `'HP_chiral_20Î²'`, etc.
 
 2. **Run the setup scripts**:
 
@@ -97,22 +97,6 @@ Ensure that all dependencies are installed as mentioned in the Dependencies sect
        python setup_base.py
        python setup_GAT.py
        ```
-
-3. **Train the model**:
-
-   * To start training the model, execute the following command:
-
-   ```bash
-   python train.py
-   ```
-
-4. **Perform external validation**:
-
-   * To validate your model on an external dataset, run:
-
-   ```bash
-   python Validate_External.py
-   ```
 
 ## SHAP Analysis
 
@@ -142,7 +126,7 @@ The main steps involved are:
 
 1. **Dataset Construction**: Prepares the molecular dataset by generating 3D structures and calculating descriptors.
 2. **Model Training**: Trains the selected model (e.g., GAT or other baseline models) using the preprocessed dataset.
-3. **Evaluation**: Models are evaluated using metrics like RMSE, MAE, and R?.
+3. **Evaluation**: Models are evaluated using metrics like RMSE, MAE, and RÂ².
 4. **Results Visualization**: Use matplotlib to visualize model performance. This generates a Hexbin scatter plot (showing predicted versus true retention times, annotated with performance metrics) and an error histogram (showing the distribution of prediction errors).
 ### Model Architecture
 
