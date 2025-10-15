@@ -47,8 +47,8 @@ pip install -r requirements.txt
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/Weeqe1/Enantioseparation.git
-cd Enantioseparation
+git clone https://github.com/your-username/chromatographic-rt-prediction.git
+cd chromatographic-rt-prediction
 ```
 
 2. **Install dependencies:**
@@ -73,7 +73,7 @@ Ensure that all dependencies are installed as mentioned in the Dependencies sect
 
 1. **Configure the target column**:
 
-   * In `config.py`, set the `TRANSFER_TARGET` variable to the desired chromatographic column. Available options include: `'Cyclosil_B'`, `'Cyclodex_B'`, `'HP_chiral_20Î²'`, etc.
+   * In `config.py`, set the `TRANSFER_TARGET` variable to the desired chromatographic column. Available options include: `'Cyclosil_B'`, `'Cyclodex_B'`, `'HP_chiral_20¦Â'`, etc.
 
 2. **Run the setup scripts**:
 
@@ -126,7 +126,7 @@ The main steps involved are:
 
 1. **Dataset Construction**: Prepares the molecular dataset by generating 3D structures and calculating descriptors.
 2. **Model Training**: Trains the selected model (e.g., GAT or other baseline models) using the preprocessed dataset.
-3. **Evaluation**: Models are evaluated using metrics like RMSE, MAE, and RÂ².
+3. **Evaluation**: Models are evaluated using metrics like RMSE, MAE, and R?.
 4. **Results Visualization**: Use matplotlib to visualize model performance. This generates a Hexbin scatter plot (showing predicted versus true retention times, annotated with performance metrics) and an error histogram (showing the distribution of prediction errors).
 ### Model Architecture
 
@@ -139,7 +139,4 @@ The primary model used in this project is the **Graph Attention Network (GAT)**,
 ## License
 
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
-
-
-
 

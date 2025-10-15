@@ -27,7 +27,6 @@ from train import train, eval, augment_data
 warnings.filterwarnings("ignore", category=UserWarning)
 mp.set_start_method('spawn', force=True)
 
-
 class CheckpointManager:
     """
     Manages checkpoint saving and loading for Bayesian optimization process.
@@ -135,7 +134,6 @@ class CheckpointManager:
         params_tuple = tuple(sorted(params.items()))
         return params_tuple in self.tried_params_cache
 
-
 class ModelEvaluator:
     """
     Handles model evaluation for Bayesian optimization.
@@ -172,7 +170,7 @@ class ModelEvaluator:
         self.test_dataset = test_dataset
         self.node_features = node_features
         self.edge_features = edge_features
-        self.device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         self.checkpoint_manager = CheckpointManager(checkpoint_dir)
         self.best_score = float('-inf')
         self.failed_attempts = 0

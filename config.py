@@ -1,7 +1,7 @@
 # Configuration
 DESK = 'Dataset_construct'  # Options: 'Dataset_construct', 'Train', 'Validate_External'
 
-TRANSFER_TARGET = 'CP_Chirasil_Dex_CB'  # Target column: 'Cyclosil_B', 'Cyclodex_B', 'HP_chiral_20β',
+TRANSFER_TARGET = 'Cyclosil_B'  # Target column: 'Cyclosil_B', 'Cyclodex_B', 'HP_chiral_20β',
                                 # 'CP_Cyclodextrin_β_2,3,6_M_19', 'CP_Chirasil_D_Val',
                                 # 'CP_Chirasil_Dex_CB', 'CP_Chirasil_L_Val'
 
