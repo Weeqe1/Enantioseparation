@@ -1,0 +1,4 @@
+Cross-Validation Results (5 folds):
+Average MAE: 5.9649 (±0.7137)
+Average R2: 0.9549 (±0.0117)
+Average RMSE: 10.2338 (±1.7020)
