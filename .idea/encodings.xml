@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Dataset_construct/dataset_construct.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Validate_External/Validate_External.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/setup_GAT.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/setup_base.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test.py" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

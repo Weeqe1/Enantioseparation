@@ -1,0 +1,9 @@
+Cyclodex_B_Best Parameters: {'batch_size': 8, 'dropout': 0.1, 'heads': 8, 'hidden_dim': 128, 'l1_lambda': 0.001, 'l2_lambda': 0.0001, 'lr': 1e-05, 'num_layers': 16, 'output_dim': 12, 'weight_decay': 0.0001}
+CP_Chirasil_L_Val_Best Parameters: {'lr': 0.01, 'batch_size': 8, 'hidden_dim': 32, 'output_dim': 8, 'heads': 2, 'num_layers': 2, 'dropout': 0.1, 'l1_lambda': 0.01, 'l2_lambda': 1e-05, 'weight_decay': 0.01}
+CP_Chirasil_Dex_CB_Best Parameters: {'lr': 0.01, 'batch_size': 8, 'hidden_dim': 32, 'output_dim': 8, 'heads': 2, 'num_layers': 2, 'dropout': 0.1, 'l1_lambda': 0.01, 'l2_lambda': 0.01, 'weight_decay': 0.01}
+CP_Cyclodextrin_β_2,3,6_M_19_Best Parameters: {'lr': 0.0001, 'batch_size': 8, 'hidden_dim': 128, 'output_dim': 32, 'heads': 6, 'num_layers': 12, 'dropout': 0.4, 'l1_lambda': 0.001, 'l2_lambda': 0.001, 'weight_decay': 0.0001}
+HP_chiral_20β_Best Parameters: {'lr': 0.0001, 'batch_size': 8, 'hidden_dim': 32, 'output_dim': 8, 'heads': 8, 'num_layers': 14, 'dropout': 0.2, 'l1_lambda': 1e-05, 'l2_lambda': 0.01, 'weight_decay': 1e-05}
+CP_Chirasil_D_Val_Best Parameters: {'lr': 1e-05, 'batch_size': 8, 'hidden_dim': 128, 'output_dim': 16, 'heads': 2, 'num_layers': 8, 'dropout': 0.2, 'l1_lambda': 1e-05, 'l2_lambda': 0.01, 'weight_decay': 0.01}
+Cyclosil_B_Best Parameters: {'lr': 1e-05, 'batch_size': 8, 'hidden_dim': 128, 'output_dim': 32, 'heads': 16, 'num_layers': 4, 'dropout': 0.5, 'l1_lambda': 0.0001, 'l2_lambda': 1e-05, 'weight_decay': 1e-05}
+
+
