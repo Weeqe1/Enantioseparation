@@ -1,0 +1,108 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# =============================================================================
+# IDE and Editors
+# =============================================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+.ipynb_checkpoints/
+
+# =============================================================================
+# Project-specific: Output and Model Files
+# =============================================================================
+# Training outputs (intermediate results, plots, logs)
+Output/
+
+# Model checkpoints and saved weights
+saves/
+
+# 3D molecular structure files (generated during processing)
+**/Chiral_3D_mol/
+**/3D_mol_*.mol
+
+# =============================================================================
+# Environment and System Files
+# =============================================================================
+venv/
+env/
+ENV/
+.venv/
+.env
+*.conda
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =============================================================================
+# Logs and Temporary Files
+# =============================================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+runs/
+logs/
+tensorboard/
