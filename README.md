@@ -480,35 +480,6 @@ Enantioseparation/
 
 ---
 
-## Development Roadmap
-
-```mermaid
-gantt
-    title Project Development Roadmap
-    dateFormat  YYYY-MM-DD
-    section Data Processing
-    3D Conformer Generation  :done, a1, 2024-01-01, 30d
-    Graph Data Construction  :done, a2, after a1, 20d
-    Descriptor Calculation   :done, a3, after a2, 15d
-    
-    section Model Development
-    GAT Architecture Design  :done, b1, 2024-02-15, 25d
-    Baseline Implementation  :done, b2, after b1, 15d
-    Training Pipeline Optimization :done, b3, after b2, 20d
-    
-    section Analysis & Optimization
-    SHAP Feature Analysis    :done, c1, 2024-04-01, 20d
-    Bayesian Optimization    :done, c2, after c1, 15d
-    External Validation      :done, c3, after c2, 10d
-    
-    section Future Plans
-    Transfer Learning Support :active, d1, 2024-06-01, 30d
-    Multi-Task Prediction     :         d2, after d1, 30d
-    Web Interface Development :         d3, after d2, 45d
-```
-
----
-
 ## Dependencies
 
 ### Core Dependencies
