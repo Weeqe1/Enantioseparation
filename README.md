@@ -290,6 +290,20 @@ This produces column-specific feature subsets, enabling interpretable prediction
 
 ## 4. System Architecture
 
+### 4.1 Project Flowchart
+
+The following diagram illustrates the complete data processing pipeline from raw molecular inputs to retention time predictions:
+
+![Project Flowchart](Project%20flowchart.jpeg)
+
+### 4.2 Model Architecture
+
+The GATv2-based neural network architecture with residual connections and MLP predictor head:
+
+![Model Architecture Diagram](Model%20architecture%20diagram.jpeg)
+
+### 4.3 System Overview (ASCII)
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           GATChiral System Architecture                      │
